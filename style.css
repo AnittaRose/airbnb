@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.airbnb-main-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    right:10em;
+}
+#internet{
+    width: 16px;
+    height: 16px;
+}
+#menu{
+    width: 16px;
+    height: 16px;
+}
+#user{
+    width: 32px;
+    height: 32px;
+}
+#user,#menu,#internet,#home{
+    /* margin: 1em; */
+    padding-left:10px ;
+    position: relative;
+    left: 12em;
+    text-align: end;
+}
+.bnt1{
+    margin-top: 4em;
+    background-color:white;
+    color: black;
+    width: 284px;
+    height: 65px;
+    border-radius: 5em;
+    position: relative;
+    justify-content: center;
+    border: 1px solid white;
+}
+.bnt1:hover{
+    background-color: #c3c3c3c4;
+
+}
+.bnt{
+    position: relative;
+    bottom: 2em;
+}
+.main-button{
+   position: relative;
+
+   margin-left: 17em;
+   border: 1px solid grey;
+   width: 65%;
+   border-radius: 50px;
+}
+.small-images{
+    display: flex;
+    margin-top: 5em;
+    overflow: auto;
+    overflow: hidden;
+}
+#images{
+   width: 24px; 
+   height: 24px;
+   position: relative;
+   margin-left: 2em;
+}
+#pictures1{
+    width: 350px;
+    height: 300px;
+    margin-top: 2em;
+    border-radius: 1em;
+    
+}
+.sub-pictures{
+
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    column-gap: 4em;
+    grid-template-rows: repeat( 3,400px);
+    row-gap:1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+ #pic2{
+     width: 350px;
+     height: 300px;
+     margin-top: 2em;
+     border-radius: 1em;
+     
+ }
+ .sub-pictures21{
+ 
+     display: grid;
+     grid-template-columns: repeat(4,300px);
+     column-gap: 4em;
+     grid-template-rows: repeat( 3,400px);
+     row-gap:1em;
+     margin-left: 2em;
+     margin-right: 2em;
+     
+ }
+ .sub-text-3{
+    font-size: 35px;
+    position: relative;
+    margin-left: 1em;
+    margin-top: 2em;
+ }
+ 
